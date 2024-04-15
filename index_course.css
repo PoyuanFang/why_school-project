@@ -2,6 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-bottom: 1.25rem;
 }
 
 .courseTitle button {
@@ -12,7 +13,7 @@
 
 .courseCards {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 30px;
 }
@@ -22,8 +23,14 @@
   width: 330px;
   height: 300px;
   flex-direction: column;
-  justify-content: space-between;
   align-items: flex-start;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.9375rem;
 }
 
 .courseCard img {
