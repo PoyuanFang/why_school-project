@@ -24,6 +24,10 @@ a {
   color: white;
 }
 
+menu > li > a:hover {
+  color: var(--why-darkgrey, #2e363d);
+}
+
 nav {
   background: var(--why-gradient, #ffa738);
   padding: 0 3rem;
