@@ -1,11 +1,11 @@
-.sectionTitle {
+.courseTitle {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 1.25rem;
 }
 
-.sectionTitle button {
+.courseTitle button {
   border: 0.0625rem solid currentColor;
   border-radius: 50%;
   background-color: white;
