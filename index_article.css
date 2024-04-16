@@ -1,0 +1,48 @@
+.articleTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.25rem;
+}
+
+.articleTitle button {
+  border: 0.0625rem solid currentColor;
+  border-radius: 50%;
+  background-color: white;
+}
+
+.articleCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.25rem;
+}
+
+.articleCard {
+  display: flex;
+  flex: 1;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 0.0625rem solid black;
+  border-bottom-left-radius: 1.25rem;
+  border-bottom-right-radius: 1.25rem;
+}
+
+.articleCard img {
+  width: 16.25rem;
+  height: fit-content;
+}
+
+.tags {
+  display: flex;
+  align-items: flex-end;
+  gap: 0.625rem;
+}
+
+.tag {
+  border-radius: 1.25rem;
+  background-color: #e7e7e7;
+  padding: 0 0.625rem;
+}
